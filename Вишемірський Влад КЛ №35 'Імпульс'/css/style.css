@@ -1,0 +1,195 @@
+/*==========================================<Обнуление стилей>==========================================*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  
+  
+  *,
+  *:before,
+  *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  
+  :focus,
+  :active {
+    outline: none;
+  }
+  a:focus,
+  a:active {
+    outline: none;
+  }
+  
+  
+  nav,
+  footer,
+  header,
+  aside {
+    display: block;
+  }
+  
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    font-family: Inter;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  
+  input,
+  button,
+  textarea {
+    font-family: inherit;
+  }
+  
+  
+  input::-ms-clear {
+    display: none;
+  }
+  button {
+    cursor: pointer;
+  }
+  button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+  a,
+  a:visited {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  ul li {
+    list-style: none;
+  }
+  img {
+    vertical-align: top;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: inherit;
+    font-weight: 400;
+  }
+/*==========================================</Обнуление стилей>==========================================*/
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+.first {
+    width: 100%;
+    height: 100%;
+    background: url('../img/Ukraine.jpg') no-repeat center top;
+    transition: 1s ease;
+}
+.second {
+  width: 100%;
+  height: 100%;
+  background: url('../img/Poland.jpg') no-repeat center top;
+  transition: 1s ease;
+}
+.third {
+  width: 100%;
+  height: 100%;
+  background: url('../img/England.jpg') no-repeat center top;
+  transition: 1s ease;
+}
+.fourth {
+  width: 100%;
+  height: 100%;
+  background: url('../img/Italy.jpg') no-repeat center top;
+  transition: 1s ease;
+}
+.fifth {
+  width: 100%;
+  height: 100%;
+  background: url('../img/France.jpg') no-repeat center top;
+  transition: 1s ease;
+}
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 50px;
+}
+.menu_link {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+.menu li {
+  position: relative;
+}
+.menu>li:hover .sub-menu {
+  display: block;
+}
+.sub-menu {
+  display: none;
+  min-width: 40%;
+  position: absolute;
+  left: 0;
+  top: 16px;
+  padding: 10px 0px 0px 0px;
+}
+.sub-menu>li {
+  background-color: white;
+}
+.sub-menu_link {
+  color: black;
+  display: inline-block;
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+.tagline-row {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 17%;
+}
+.tagline-row div {
+  font-size: 100px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.world {
+  border: 2px solid #10FB51;
+  background-color: #10FB51;
+  margin-bottom: 50px;
+}
+.of {
+  border: 2px solid white;
+  background-color: white;
+  margin-top: 30px;
+}
+.peace {
+  border: 2px solid #4122FF;
+  background-color: #4122FF;
+  margin-bottom: 30px;
+}
